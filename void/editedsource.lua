@@ -2630,7 +2630,7 @@ function library.createkeybind(default, parent, blacklist, flag, callback, offse
             newkey = Enum.UserInputType[tostring(newkey):gsub("Enum.UserInputType.", "")]
         end
 
-        if newkey ~= nil and not table.find(blacklist, newkey) and not newkey.KeyCode == Enum.KeyCode.Backspace then
+        if newkey ~= nil and not table.find(blacklist, newkey) and newkey ~= Enum.KeyCode.Backspace then
             key = newkey
 
             local text = "[" .. (keys[newkey] or tostring(newkey):gsub("Enum.KeyCode.", "")) .. "]"
