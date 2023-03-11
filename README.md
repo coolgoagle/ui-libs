@@ -5,3 +5,6 @@
 
 # Void [DRAWING LIB]
 ![image](https://user-images.githubusercontent.com/102777764/220511585-5277c141-10ed-4af0-84d9-5347d7497d9f.png)
+
+# Wave
+![image](https://user-images.githubusercontent.com/102777764/224462242-f7cd9dcb-40a7-435a-97db-7e8c6f3b1c90.png)
